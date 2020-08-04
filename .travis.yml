@@ -11,7 +11,7 @@ services:
 
 before_install:
   - docker build -t reddock/poker-seasons .
-  - docker run reddock/poker-seasons
 
 script:
+  - docker run reddock/poker-seasons
   - npm run test
