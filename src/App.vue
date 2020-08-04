@@ -1,9 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="black" dark>
-      <v-toolbar-title>
-        Mike's Poker Night
-      </v-toolbar-title>
+      <v-toolbar-title>Mike's Poker Night!</v-toolbar-title>
     </v-app-bar>
 
     <SeasonStandings />
