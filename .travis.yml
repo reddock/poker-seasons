@@ -13,4 +13,4 @@ before_install:
   - docker build -t reddock/poker-seasons .
 
 script:
-  - echo "all good"
+  - docker run -e CI=true reddock/poker-seasons
