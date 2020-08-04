@@ -1,19 +1,42 @@
 <template>
-  <div class="hello">
-    <h3>
-      August Regular Tournament Season MIKE
-    </h3>
-    <p></p>
-    <v-data-table
-      dense
-      hide-default-footer
-      disable-pagination
-      :headers="headers"
-      :items="players"
-      :sort-by="['total', 'name']"
-      :sort-desc="['true']"
-      class="elevation-1"
-    ></v-data-table>
+  <div>
+    <v-content>
+      <h3>August Online Season</h3>
+      <v-container>
+        <v-data-table
+          dense
+          hide-default-footer
+          disable-pagination
+          mobile-breakpoint="200"
+          :headers="headers"
+          :items="players"
+          :sort-by="['total', 'name']"
+          :sort-desc="['true']"
+          class="elevation-1"
+        ></v-data-table>
+      </v-container>
+      <v-container>
+        <h3>Point System</h3>
+        <v-row>
+          <v-simple-table dense>
+            <template v-slot:default>
+              <thead>
+                <tr>
+                  <th class="text-left">Place</th>
+                  <th class="text-left">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="place in places" :key="place.name">
+                  <td>{{ place.place }}</td>
+                  <td>{{ place.points }}</td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </v-row>
+      </v-container>
+    </v-content>
   </div>
 </template>
 
@@ -25,6 +48,28 @@ export default {
   },
   data() {
     return {
+      places: [
+        {
+          place: "1st",
+          points: 5,
+        },
+        {
+          place: "2nd",
+          points: 4,
+        },
+        {
+          place: "3rd",
+          points: 3,
+        },
+        {
+          place: "In The Money",
+          points: 2,
+        },
+        {
+          place: "Attendance",
+          points: 1,
+        },
+      ],
       headers: [
         {
           text: "Player",
@@ -37,47 +82,53 @@ export default {
         { text: "8/3", value: "game2" },
         { text: "8/7", value: "game3" },
         { text: "8/10", value: "game4" },
-        { text: "8/14", value: "game5" },
-        { text: "8/17", value: "game6" },
-        { text: "8/21", value: "game7" },
-        { text: "8/24", value: "game8" },
-        { text: "8/28", value: "game9" },
+        { text: "8/7", value: "game3" },
+        { text: "8/10", value: "game4" },
+        { text: "8/7", value: "game3" },
+        { text: "8/10", value: "game4" },
       ],
       players: [
         {
           name: "BigMike",
-          total: 1,
+          total: 2,
           game1: 1,
+          game2: 1,
         },
         {
           name: "Alex",
-          total: 5,
+          total: 9,
           game1: 5,
+          game2: 4,
         },
         {
           name: "Kat",
-          total: 4,
+          total: 5,
           game1: 4,
+          game2: 1,
         },
         {
           name: "David",
-          total: 3,
+          total: 4,
           game1: 3,
+          game2: 1,
         },
         {
           name: "Anders",
-          total: 2,
+          total: 5,
           game1: 2,
+          game2: 3,
         },
         {
           name: "Shane",
-          total: 1,
+          total: 2,
           game1: 1,
+          game2: 1,
         },
         {
           name: "Christine",
-          total: 1,
+          total: 2,
           game1: 1,
+          game2: 1,
         },
         {
           name: "Iustin",
@@ -108,6 +159,11 @@ export default {
           name: "Derik",
           total: 1,
           game1: 1,
+        },
+        {
+          name: "Jess",
+          total: 5,
+          game2: 5,
         },
       ],
     };
