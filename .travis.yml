@@ -13,5 +13,5 @@ before_install:
   - docker build -t reddock/poker-seasons .
 
 script:
-  - docker run reddock/poker-seasons
+  - docker run -d -p 80:80 reddock/poker-seasons
   - npm run test
