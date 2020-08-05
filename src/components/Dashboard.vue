@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-container fluid>
-      <v-row :align="alignment" :justify="justify" class="mb-3 pa-3">
-        <v-col>
+      <v-row :align="alignment" :justify="justify" class="ma-1 pa-1">
+        <v-col class="ma-1 pa-1">
           <SeasonStandings />
         </v-col>
       </v-row>
-      <v-row :align="alignment" :justify="justify" class="ma-3 pa-3">
+      <v-row :align="alignment" :justify="justify" class="ma-1 pa-1">
         <v-col>
           <PointSystem />
         </v-col>
