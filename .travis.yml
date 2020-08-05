@@ -19,10 +19,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "docker-poker"
-  env: "DockerPoker-env"
+  app: "poker2"
+  env: "Poker2-env"
   bucket_name: "elasticbeanstalk-us-east-1-692931364511"
-  bucket_path: "docker-poker"
+  bucket_path: "poker2"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
