@@ -36,15 +36,23 @@
           </v-simple-table>
         </v-row>
       </v-container>
+      <v-container>
+        <PointSystem />
+      </v-container>
     </v-content>
   </div>
 </template>
 
 <script>
+import PointSystem from "./PointSystem";
+
 export default {
   name: "SeasonStandings",
   props: {
     msg: String,
+  },
+  components: {
+    PointSystem,
   },
   data() {
     return {
