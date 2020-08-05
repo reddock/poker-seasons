@@ -3,19 +3,18 @@
     <v-app-bar app color="black" dark>
       <v-toolbar-title>Mike's Poker Night!</v-toolbar-title>
     </v-app-bar>
-
-    <SeasonStandings />
+    <Dashboard />
   </v-app>
 </template>
 
 <script>
-import SeasonStandings from "./components/SeasonStandings";
+import Dashboard from "./components/Dashboard";
 
 export default {
   name: "App",
 
   components: {
-    SeasonStandings,
+    Dashboard,
   },
 
   data: () => ({

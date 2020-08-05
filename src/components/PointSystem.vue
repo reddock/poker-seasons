@@ -1,26 +1,20 @@
 <template>
   <div>
-    <v-content>
-      <h3>Point System</h3>
-      <v-row>
-        <v-simple-table dense>
-          <template v-slot:default>
-            <thead>
-              <tr>
-                <th class="text-left">Place</th>
-                <th class="text-left">Points</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="place in places" :key="place.name">
-                <td>{{ place.place }}</td>
-                <td>{{ place.points }}</td>
-              </tr>
-            </tbody>
-          </template>
-        </v-simple-table>
-      </v-row>
-    </v-content>
+    <h3>Point System</h3>
+    <v-simple-table dense>
+      <thead>
+        <tr>
+          <th class="text-left">Place</th>
+          <th class="text-left">Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="place in places" :key="place.name">
+          <td>{{ place.place }}</td>
+          <td>{{ place.points }}</td>
+        </tr>
+      </tbody>
+    </v-simple-table>
   </div>
 </template>
 
