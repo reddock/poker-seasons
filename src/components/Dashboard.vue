@@ -1,24 +1,37 @@
 <template>
   <div>
-    <h3>August Online Season</h3>
-    <v-data-table
-      dense
-      hide-default-footer
-      disable-pagination
-      mobile-breakpoint="200"
-      :headers="headers"
-      :items="players"
-      :sort-by="['total', 'name']"
-      :sort-desc="['true']"
-    ></v-data-table>
+    <v-container fluid>
+      <v-row :align="alignment" :justify="justify" class="mb-3 pa-3">
+        <v-col>
+          <SeasonStandings />
+        </v-col>
+      </v-row>
+      <v-row :align="alignment" :justify="justify" class="ma-3 pa-3">
+        <v-col>
+          <PointSystem />
+        </v-col>
+        <v-col>
+          <Blinds />
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
+import PointSystem from "./PointSystem";
+import Blinds from "./Blinds";
+import SeasonStandings from "./SeasonStandings";
+
 export default {
-  name: "SeasonStandings",
+  name: "Dashboard",
   props: {
     msg: String,
+  },
+  components: {
+    SeasonStandings,
+    PointSystem,
+    Blinds,
   },
   data() {
     return {
