@@ -68,7 +68,13 @@ export default {
           duration: 15,
         },
         {
-          time: "7:30PM",
+          time: "9:00PM",
+          small: 60,
+          big: 120,
+          duration: 15,
+        },
+        {
+          time: "9:15PM",
           small: 5,
           big: 10,
           duration: 15,
@@ -90,28 +96,6 @@ export default {
           small: 5,
           big: 10,
           duration: 15,
-        },
-        {
-          time: "7:30PM",
-          small: 5,
-          big: 10,
-          duration: 15,
-        },
-        {
-          place: "2nd",
-          points: 4,
-        },
-        {
-          place: "3rd",
-          points: 3,
-        },
-        {
-          place: "In The Money",
-          points: 2,
-        },
-        {
-          place: "Attendance",
-          points: 1,
         },
       ],
     };

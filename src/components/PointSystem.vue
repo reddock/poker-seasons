@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Point System</h3>
+    <p>Point System</p>
     <v-simple-table dense>
       <thead>
         <tr>
