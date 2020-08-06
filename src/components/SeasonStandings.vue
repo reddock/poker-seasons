@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3>August Online Season</h3>
+  <v-card class="mx-auto" max-width="600">
+    <v-card-title>August Online Season</v-card-title>
     <v-data-table
       dense
       hide-default-footer
@@ -11,7 +11,7 @@
       :sort-by="['total', 'name']"
       :sort-desc="['true']"
     ></v-data-table>
-  </div>
+  </v-card>
 </template>
 
 <script>

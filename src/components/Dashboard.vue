@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-container fluid>
-      <v-row :align="alignment" :justify="justify" class="ma-1 pa-1">
-        <v-col class="ma-1 pa-1">
+      <v-row align="alignment" :justify="justify" class="ma-1 pa-1">
+        <v-col>
           <SeasonStandings />
         </v-col>
       </v-row>

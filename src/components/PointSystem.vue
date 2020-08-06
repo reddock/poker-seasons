@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p>Point System</p>
+  <v-card class="mx-auto" max-width="200">
+    <v-card-title>Point System</v-card-title>
     <v-simple-table dense>
       <thead>
         <tr>
@@ -15,7 +15,7 @@
         </tr>
       </tbody>
     </v-simple-table>
-  </div>
+  </v-card>
 </template>
 
 <script>
