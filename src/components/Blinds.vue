@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3>Blinds</h3>
+  <v-card max-width="300">
+    <v-card-title>Blinds</v-card-title>
     <v-simple-table dense>
       <thead>
         <tr>
@@ -19,7 +19,7 @@
         </tr>
       </tbody>
     </v-simple-table>
-  </div>
+  </v-card>
 </template>
 
 <script>
@@ -63,38 +63,38 @@ export default {
         },
         {
           time: "8:45PM",
-          small: 40,
-          big: 80,
+          small: 50,
+          big: 100,
           duration: 15,
         },
         {
           time: "9:00PM",
-          small: 60,
-          big: 120,
+          small: 75,
+          big: 150,
           duration: 15,
         },
         {
           time: "9:15PM",
-          small: 5,
-          big: 10,
+          small: 100,
+          big: 200,
           duration: 15,
         },
         {
-          time: "7:30PM",
-          small: 5,
-          big: 10,
+          time: "9:30PM",
+          small: 175,
+          big: 350,
           duration: 15,
         },
         {
-          time: "7:30PM",
-          small: 5,
-          big: 10,
+          time: "9:45PM",
+          small: 250,
+          big: 500,
           duration: 15,
         },
         {
-          time: "7:30PM",
-          small: 5,
-          big: 10,
+          time: "10:00PM",
+          small: 350,
+          big: 700,
           duration: 15,
         },
       ],
