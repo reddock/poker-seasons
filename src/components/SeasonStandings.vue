@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="650">
+  <v-card class="mx-auto" max-width="700">
     <v-card-title>August Online Season</v-card-title>
     <v-data-table
       dense
