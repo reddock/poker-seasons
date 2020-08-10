@@ -1,6 +1,6 @@
 <template>
   <v-card class="mx-auto" max-width="200">
-    <v-card-title>Point System</v-card-title>
+    <v-card-title>Friday Aug 2nd</v-card-title>
     <v-simple-table dense>
       <thead>
         <tr>

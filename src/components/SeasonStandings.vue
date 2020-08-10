@@ -142,9 +142,9 @@ export default {
         },
         {
           name: "Derik",
-          total: 2,
+          total: 3,
           game1: 1,
-          game3: 1,
+          game3: 2,
         },
         {
           name: "Jess",
