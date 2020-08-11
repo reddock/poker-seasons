@@ -105,10 +105,10 @@ export default {
         },
         {
           name: "Shane",
-          total: 6,
+          total: 7,
           game1: 1,
           game2: 1,
-          game4: 4,
+          game4: 5,
         },
         {
           name: "Christine",
@@ -175,6 +175,11 @@ export default {
         },
         {
           name: "Beaux",
+          total: 1,
+          game4: 1,
+        },
+        {
+          name: "Miller",
           total: 1,
           game4: 1,
         },

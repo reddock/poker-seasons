@@ -15,16 +15,3 @@ before_install:
 script:
   - docker run -d -p 80:80 reddock/poker-seasons
   - npm run test
-
-deploy:
-  provider: elasticbeanstalk
-  region: "us-east-1"
-  app: "poker2"
-  env: "Poker2-env"
-  bucket_name: "elasticbeanstalk-us-east-1-692931364511"
-  bucket_path: "poker2"
-  on:
-    branch: master
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  skip_cleanup: true
