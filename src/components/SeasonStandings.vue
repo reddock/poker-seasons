@@ -105,7 +105,7 @@ export default {
         },
         {
           name: "Anders",
-          total: 10,
+          total: 11,
           game1: 2,
           game2: 3,
           game3: 1,
