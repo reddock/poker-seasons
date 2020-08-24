@@ -52,6 +52,7 @@ export default {
           value: "name",
         },
         { text: "Total", value: "total" },
+        { text: "Bye", value: "bye" },
         { text: "7/31", value: "game1" },
         { text: "8/3", value: "game2" },
         { text: "8/7", value: "game3" },
@@ -76,6 +77,7 @@ export default {
         {
           name: "Alex",
           total: 14,
+          bye: 1,
           game1: 5,
           game2: 4,
           game3: 1,
