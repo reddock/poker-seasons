@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="200">
+  <v-card class="mx-auto">
     <v-card-title>Point System</v-card-title>
     <v-simple-table dense>
       <thead>
@@ -28,15 +28,15 @@ export default {
     return {
       places: [
         {
-          place: "1st",
+          place: "🥇 1st",
           points: 5,
         },
         {
-          place: "2nd",
+          place: "🥈 2nd",
           points: 4,
         },
         {
-          place: "3rd",
+          place: "🥉 3rd",
           points: 3,
         },
         {

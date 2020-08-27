@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="750">
+  <v-card class="mx-auto">
     <v-card-title>August Online Season</v-card-title>
     <v-data-table
       dense
@@ -45,6 +45,7 @@ export default {
         },
       ],
       headers: [
+        { text: "Position", value: "position" },
         {
           text: "Player",
           align: "start",
@@ -247,6 +248,47 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    calcTotalInPlayers() {
+      this.players.map((el) => {
+        el.total = 0
+        for (let key in el) {
+          if (key.substring(0,4) === 'game' || key === 'bye') {
+            el.total += el[key]
+          }
+        }
+        return el
+      })
+      return this.players
+    },
+    addPositionInPlayers() {
+      this.players.sort((a, b) => {
+        if (b.total - a.total == 0) {
+          return (b.name < a.name) ? 1 : -1
+        }
+        return b.total - a.total
+      })
+      this.players.map((el, index) => {
+        if (index === 0) {
+          el.position = '🥇'
+        }
+        else if (index === 1) {
+          el.position = '🥈'
+        }
+        else if (index === 2) {
+          el.position = '🥉'
+        }
+        else {
+          el.position = index + 1
+        }
+      })
+      return this.players
+    }
+  },
+  created() {
+    this.calcTotalInPlayers()
+    this.addPositionInPlayers()
   },
 };
 </script>
