@@ -227,7 +227,6 @@ export default {
           name: "Miller",
           bye: 1,
           game4: 1,
-          game5: 1,
         },
       ],
     };
