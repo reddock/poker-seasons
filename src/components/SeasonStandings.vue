@@ -52,6 +52,7 @@ export default {
           value: "name",
         },
         { text: "Total", value: "total" },
+        { text: "Chips", value: "chips" },
         { text: "Bye", value: "bye" },
         { text: "7/31", value: "game1" },
         { text: "8/3", value: "game2" },
@@ -247,6 +248,7 @@ export default {
             }
           }
         }
+        el.chips = el.total * 100 + 1500;
         return el;
       });
       return this.players;
