@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="750">
+  <v-card class="mx-auto">
     <v-card-title>August Online Season</v-card-title>
     <v-data-table
       dense
@@ -66,7 +66,6 @@ export default {
       players: [
         {
           name: "BigMike",
-          total: 9,
           game1: 1,
           game2: 1,
           game3: 1,
@@ -78,7 +77,6 @@ export default {
         },
         {
           name: "Alex",
-          total: 15,
           bye: 1,
           game1: 5,
           game2: 4,
@@ -89,7 +87,6 @@ export default {
         },
         {
           name: "Kat",
-          total: 13,
           game1: 4,
           game2: 1,
           game3: 3,
@@ -101,7 +98,6 @@ export default {
         },
         {
           name: "David",
-          total: 21,
           game1: 3,
           game2: 1,
           game3: 5,
@@ -113,7 +109,6 @@ export default {
         },
         {
           name: "Anders",
-          total: 13,
           game1: 2,
           game2: 3,
           game3: 1,
@@ -125,7 +120,6 @@ export default {
         },
         {
           name: "Shane",
-          total: 15,
           bye: 1,
           game1: 1,
           game2: 1,
@@ -137,7 +131,6 @@ export default {
         },
         {
           name: "Christine",
-          total: 8,
           bye: 1,
           game1: 1,
           game2: 1,
@@ -149,7 +142,6 @@ export default {
         },
         {
           name: "Iustin",
-          total: 5,
           bye: 1,
           game1: 1,
           game3: 1,
@@ -158,7 +150,6 @@ export default {
         },
         {
           name: "Foley",
-          total: 8,
           bye: 1,
           game1: 1,
           game3: 1,
@@ -170,7 +161,6 @@ export default {
         },
         {
           name: "Ned",
-          total: 11,
           bye: 1,
           game1: 1,
           game3: 1,
@@ -181,7 +171,6 @@ export default {
         },
         {
           name: "Matthew",
-          total: 18,
           bye: 1,
           game1: 1,
           game3: 1,
@@ -193,7 +182,6 @@ export default {
         },
         {
           name: "Atom",
-          total: 10,
           bye: 1,
           game1: 1,
           game5: 3,
@@ -202,7 +190,6 @@ export default {
         },
         {
           name: "Derik",
-          total: 8,
           bye: 1,
           game1: 1,
           game3: 2,
@@ -210,7 +197,6 @@ export default {
         },
         {
           name: "Jess",
-          total: 14,
           bye: 1,
           game2: 5,
           game4: 4,
@@ -219,7 +205,6 @@ export default {
         },
         {
           name: "Tim",
-          total: 7,
           bye: 1,
           game3: 4,
           game4: 1,
@@ -227,7 +212,6 @@ export default {
         },
         {
           name: "Ben",
-          total: 9,
           bye: 1,
           game3: 1,
           game5: 2,
@@ -235,18 +219,62 @@ export default {
         },
         {
           name: "Beaux",
-          total: 2,
           bye: 1,
           game4: 1,
         },
         {
           name: "Miller",
-          total: 2,
           bye: 1,
           game4: 1,
+          game5: 1,
         },
       ],
     };
+  },
+  methods: {
+    calcTotalInPlayers() {
+      this.players.map((el) => {
+        el.total = 0;
+        for (let key in el) {
+          if (key.substring(0, 4) === "game" || key === "bye") {
+            el.total += el[key];
+            if (el[key] === 5) {
+              el[key] = "5🥇";
+            } else if (el[key] === 4) {
+              el[key] = "4🥈";
+            } else if (el[key] === 3) {
+              el[key] = "3🥉";
+            }
+          }
+        }
+        return el;
+      });
+      return this.players;
+    },
+    addPositionInPlayers() {
+      this.players.sort((a, b) => {
+        if (b.total - a.total == 0) {
+          return b.name < a.name ? 1 : -1;
+        }
+        return b.total - a.total;
+      });
+      this.players.map((el, index) => {
+        if (index === 0) {
+          el.position = "🥇";
+        } else if (index === 1) {
+          el.position = "🥈";
+        } else if (index === 2) {
+          el.position = "🥉";
+        } else {
+          el.position = index + 1;
+        }
+      });
+      return this.players;
+    },
+  },
+  created() {
+    this.calcTotalInPlayers();
+    this.addPositionInPlayers();
   },
 };
 </script>

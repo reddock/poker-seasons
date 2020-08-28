@@ -11,6 +11,7 @@
 
 <script>
 import Dashboard from "./components/Dashboard";
+document.title = "Mike's Poker Night";
 
 export default {
   name: "App",

@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="300">
+  <v-card>
     <v-card-title>Blinds</v-card-title>
     <v-simple-table dense>
       <thead>
