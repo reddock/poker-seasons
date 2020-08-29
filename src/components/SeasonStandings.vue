@@ -75,6 +75,7 @@ export default {
           game6: 1,
           game7: 1,
           game8: 1,
+          game9: 4,
         },
         {
           name: "Alex",
@@ -96,6 +97,7 @@ export default {
           game6: 1,
           game7: 1,
           game8: 1,
+          game9: 1,
         },
         {
           name: "David",
@@ -107,6 +109,7 @@ export default {
           game6: 5,
           game7: 4,
           game8: 1,
+          game9: 1,
         },
         {
           name: "Anders",
@@ -118,6 +121,7 @@ export default {
           game6: 1,
           game7: 1,
           game8: 1,
+          game9: 1,
         },
         {
           name: "Shane",
@@ -129,6 +133,7 @@ export default {
           game6: 1,
           game7: 1,
           game8: 3,
+          game9: 3,
         },
         {
           name: "Christine",
@@ -140,6 +145,7 @@ export default {
           game5: 1,
           game6: 1,
           game8: 1,
+          game9: 1,
         },
         {
           name: "Iustin",
@@ -148,6 +154,7 @@ export default {
           game3: 1,
           game5: 1,
           game7: 1,
+          game9: 1,
         },
         {
           name: "Foley",
@@ -159,6 +166,7 @@ export default {
           game6: 1,
           game7: 1,
           game8: 1,
+          game9: 5,
         },
         {
           name: "Ned",
@@ -169,6 +177,7 @@ export default {
           game5: 1,
           game6: 2,
           game8: 4,
+          game9: 2,
         },
         {
           name: "Matthew",
@@ -195,6 +204,7 @@ export default {
           game1: 1,
           game3: 2,
           game5: 4,
+          game9: 1,
         },
         {
           name: "Jess",
@@ -217,6 +227,7 @@ export default {
           game3: 1,
           game5: 2,
           game7: 5,
+          game9: 1,
         },
         {
           name: "Beaux",
