@@ -58,7 +58,7 @@ export default {
         {
           time: "8:30PM",
           small: 40,
-          big: i80,
+          big: 80,
           duration: 15,
         },
         {
