@@ -2,6 +2,9 @@
   <v-app>
     <v-app-bar app color="black" dark>
       <v-toolbar-title>Mike's Poker Night!</v-toolbar-title>
+      <v-btn icon>
+        <v-icon>mdi-magnify</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-main>
       <Dashboard />
