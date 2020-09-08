@@ -43,6 +43,7 @@ export default {
         {
           name: "BigMike",
           game1: 3,
+          game3: 4,
         },
         {
           name: "Matthew",
@@ -64,10 +65,19 @@ export default {
         {
           name: "Kat",
           game2: 2,
+          game3: 3,
         },
         {
           name: "Shane",
           game2: 2,
+        },
+        {
+          name: "Derik",
+          game3: 5,
+        },
+        {
+          name: "Foley",
+          game3: 2,
         },
       ],
     };
