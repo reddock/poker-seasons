@@ -3,7 +3,7 @@
     <v-container>
       <v-row align="alignment" :justify="justify" class="ma-1 pa-1">
         <v-col>
-          <SeasonStandings />
+          <SeptMerit />
         </v-col>
       </v-row>
       <v-row :align="alignment" :justify="justify" class="ma-1 pa-1">
@@ -21,7 +21,7 @@
 <script>
 import PointSystem from "./PointSystem";
 import Blinds from "./Blinds";
-import SeasonStandings from "./SeasonStandings";
+import SeptMerit from "./SeptMerit";
 
 export default {
   name: "Dashboard",
@@ -29,131 +29,9 @@ export default {
     msg: String,
   },
   components: {
-    SeasonStandings,
+    SeptMerit,
     PointSystem,
     Blinds,
-  },
-  data() {
-    return {
-      places: [
-        {
-          place: "1st",
-          points: 5,
-        },
-        {
-          place: "2nd",
-          points: 4,
-        },
-        {
-          place: "3rd",
-          points: 3,
-        },
-        {
-          place: "In The Money",
-          points: 2,
-        },
-        {
-          place: "Attendance",
-          points: 1,
-        },
-      ],
-      headers: [
-        {
-          text: "Player",
-          align: "start",
-          sortable: false,
-          value: "name",
-        },
-        { text: "Total", value: "total" },
-        { text: "7/31", value: "game1" },
-        { text: "8/3", value: "game2" },
-        { text: "8/7", value: "game3" },
-        { text: "8/10", value: "game4" },
-        { text: "8/7", value: "game3" },
-        { text: "8/10", value: "game4" },
-        { text: "8/7", value: "game3" },
-        { text: "8/10", value: "game4" },
-      ],
-      players: [
-        {
-          name: "BigMike",
-          total: 2,
-          game1: 1,
-          game2: 1,
-        },
-        {
-          name: "Alex",
-          total: 9,
-          game1: 5,
-          game2: 4,
-        },
-        {
-          name: "Kat",
-          total: 5,
-          game1: 4,
-          game2: 1,
-        },
-        {
-          name: "David",
-          total: 4,
-          game1: 3,
-          game2: 1,
-        },
-        {
-          name: "Anders",
-          total: 5,
-          game1: 2,
-          game2: 3,
-        },
-        {
-          name: "Shane",
-          total: 2,
-          game1: 1,
-          game2: 1,
-        },
-        {
-          name: "Christine",
-          total: 2,
-          game1: 1,
-          game2: 1,
-        },
-        {
-          name: "Iustin",
-          total: 1,
-          game1: 1,
-        },
-        {
-          name: "Foley",
-          total: 1,
-          game1: 1,
-        },
-        {
-          name: "Ned",
-          total: 1,
-          game1: 1,
-        },
-        {
-          name: "Matthew",
-          total: 1,
-          game1: 1,
-        },
-        {
-          name: "Atom",
-          total: 1,
-          game1: 1,
-        },
-        {
-          name: "Derik",
-          total: 1,
-          game1: 1,
-        },
-        {
-          name: "Jess",
-          total: 5,
-          game2: 5,
-        },
-      ],
-    };
   },
 };
 </script>

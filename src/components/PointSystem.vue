@@ -5,13 +5,15 @@
       <thead>
         <tr>
           <th class="text-left">Place</th>
-          <th class="text-left">Points</th>
+          <th class="text-left">Merit Points</th>
+          <th class="text-left">Chips</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="place in places" :key="place.name">
           <td>{{ place.place }}</td>
           <td>{{ place.points }}</td>
+          <td>{{ place.chips }}</td>
         </tr>
       </tbody>
     </v-simple-table>
@@ -30,22 +32,27 @@ export default {
         {
           place: "🥇 1st",
           points: 5,
+          chips: 500,
         },
         {
           place: "🥈 2nd",
           points: 4,
+          chips: 400,
         },
         {
           place: "🥉 3rd",
           points: 3,
+          chips: 300,
         },
         {
           place: "In The Money",
           points: 2,
+          chips: 200,
         },
         {
           place: "Attendance",
           points: 1,
+          chips: 100,
         },
       ],
     };
