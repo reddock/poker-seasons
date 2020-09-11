@@ -32,12 +32,12 @@ export default {
         { text: "Total", value: "total" },
         { text: "8/31", value: "game1" },
         { text: "9/4", value: "game2" },
-        { text: "9/11", value: "game3" },
-        { text: "9/14", value: "game4" },
-        { text: "9/18", value: "game5" },
-        { text: "9/21", value: "game6" },
-        { text: "9/25", value: "game7" },
-        { text: "9/28", value: "game8" },
+        { text: "9/7", value: "game3" },
+        { text: "9/11", value: "game4" },
+        { text: "9/14", value: "game5" },
+        { text: "9/18", value: "game6" },
+        { text: "9/21", value: "game7" },
+        { text: "9/25", value: "game8" },
       ],
       players: [
         {
