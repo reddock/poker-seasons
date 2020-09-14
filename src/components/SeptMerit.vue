@@ -44,10 +44,12 @@ export default {
           name: "BigMike",
           game1: 3,
           game3: 4,
+          game4: 2,
         },
         {
           name: "Matthew",
           game1: 5,
+          game4: 3,
         },
         {
           name: "Anders",
@@ -57,6 +59,10 @@ export default {
         {
           name: "David",
           game2: 5,
+        },
+        {
+          name: "Atom",
+          game4: 2,
         },
         {
           name: "Ned",
@@ -74,10 +80,12 @@ export default {
         {
           name: "Derik",
           game3: 5,
+          game4: 5,
         },
         {
           name: "Foley",
           game3: 2,
+          game4: 4,
         },
       ],
     };
