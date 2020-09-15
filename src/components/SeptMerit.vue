@@ -45,6 +45,7 @@ export default {
           game1: 3,
           game3: 4,
           game4: 2,
+          game5: 5,
         },
         {
           name: "Matthew",
@@ -76,6 +77,14 @@ export default {
         {
           name: "Shane",
           game2: 2,
+        },
+        {
+          name: "Julio",
+          game5: 4,
+        },
+        {
+          name: "Alex",
+          game5: 3,
         },
         {
           name: "Derik",
