@@ -46,6 +46,7 @@ export default {
           game3: 4,
           game4: 2,
           game5: 5,
+          game6: 2,
         },
         {
           name: "Matthew",
@@ -56,6 +57,7 @@ export default {
           name: "Anders",
           game1: 4,
           game2: 4,
+          game6: 4,
         },
         {
           name: "David",
@@ -64,6 +66,10 @@ export default {
         {
           name: "Atom",
           game4: 2,
+        },
+        {
+          name: "Ben Pops",
+          game6: 5,
         },
         {
           name: "Ned",
@@ -77,6 +83,7 @@ export default {
         {
           name: "Shane",
           game2: 2,
+          game6: 3,
         },
         {
           name: "Julio",
@@ -90,6 +97,7 @@ export default {
           name: "Derik",
           game3: 5,
           game4: 5,
+          game6: 2,
         },
         {
           name: "Foley",
