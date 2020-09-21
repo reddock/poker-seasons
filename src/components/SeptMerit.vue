@@ -8,8 +8,8 @@
       mobile-breakpoint="200"
       :headers="headers"
       :items="players"
-      :sort-by="['total', 'name']"
-      :sort-desc="['true']"
+      :sort-by="['total', 'chips']"
+      :sort-desc="['true', 'true']"
     ></v-data-table>
   </v-card>
 </template>
@@ -30,6 +30,7 @@ export default {
           value: "name",
         },
         { text: "Total", value: "total" },
+        { text: "Chips", value: "chips" },
         { text: "8/31", value: "game1" },
         { text: "9/4", value: "game2" },
         { text: "9/7", value: "game3" },
@@ -42,6 +43,7 @@ export default {
       players: [
         {
           name: "BigMike",
+          chips: 1700,
           game1: 3,
           game3: 4,
           game4: 2,
@@ -50,59 +52,87 @@ export default {
         },
         {
           name: "Matthew",
+          chips: 1200,
           game1: 5,
           game4: 3,
         },
         {
           name: "Anders",
+          chips: 1500,
           game1: 4,
           game2: 4,
           game6: 4,
         },
         {
           name: "David",
+          chips: 1000,
           game2: 5,
         },
         {
           name: "Atom",
+          chips: 600,
           game4: 2,
         },
         {
           name: "Ben Pops",
+          chips: 600,
           game6: 5,
         },
         {
           name: "Ned",
+          chips: 600,
           game2: 3,
         },
         {
           name: "Kat",
+          chips: 900,
           game2: 2,
           game3: 3,
         },
         {
           name: "Shane",
+          chips: 900,
           game2: 2,
           game6: 3,
         },
         {
           name: "Julio",
+          chips: 600,
           game5: 4,
         },
         {
           name: "Alex",
+          chips: 700,
           game5: 3,
         },
         {
           name: "Derik",
+          chips: 1400,
           game3: 5,
           game4: 5,
           game6: 2,
         },
         {
           name: "Foley",
+          chips: 1000,
           game3: 2,
           game4: 4,
+        },
+        {
+          name: "Christine",
+          chips: 600,
+        },
+        {
+          name: "Iustin",
+          chips: 400,
+        },
+        {
+          name: "Jess",
+          chips: 400,
+        },
+        {
+          name: "Robert",
+          chips: 200,
         },
       ],
     };
@@ -123,7 +153,7 @@ export default {
             }
           }
         }
-        el.chips = el.total * 100 + 1500;
+        el.chips = el.chips + 1500;
         return el;
       });
       return this.players;
