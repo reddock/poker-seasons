@@ -38,12 +38,11 @@ export default {
         { text: "9/14", value: "game5" },
         { text: "9/18", value: "game6" },
         { text: "9/21", value: "game7" },
-        { text: "9/25", value: "game8" },
       ],
       players: [
         {
           name: "BigMike",
-          chips: 1700,
+          chips: 1800,
           game1: 3,
           game3: 4,
           game4: 2,
@@ -52,21 +51,23 @@ export default {
         },
         {
           name: "Matthew",
-          chips: 1200,
+          chips: 1500,
           game1: 5,
           game4: 3,
+          game7: 3,
         },
         {
           name: "Anders",
-          chips: 1500,
+          chips: 1600,
           game1: 4,
           game2: 4,
           game6: 4,
         },
         {
           name: "David",
-          chips: 1000,
+          chips: 1400,
           game2: 5,
+          game7: 4,
         },
         {
           name: "Atom",
@@ -85,42 +86,44 @@ export default {
         },
         {
           name: "Kat",
-          chips: 900,
+          chips: 1000,
           game2: 2,
           game3: 3,
         },
         {
           name: "Shane",
-          chips: 900,
+          chips: 1400,
           game2: 2,
           game6: 3,
+          game7: 5,
         },
         {
           name: "Julio",
-          chips: 600,
+          chips: 700,
           game5: 4,
         },
         {
           name: "Alex",
-          chips: 700,
+          chips: 900,
           game5: 3,
+          game7: 2,
         },
         {
           name: "Derik",
-          chips: 1400,
+          chips: 1500,
           game3: 5,
           game4: 5,
           game6: 2,
         },
         {
           name: "Foley",
-          chips: 1000,
+          chips: 1100,
           game3: 2,
           game4: 4,
         },
         {
           name: "Christine",
-          chips: 600,
+          chips: 700,
         },
         {
           name: "Iustin",
@@ -128,7 +131,7 @@ export default {
         },
         {
           name: "Jess",
-          chips: 400,
+          chips: 500,
         },
         {
           name: "Robert",
