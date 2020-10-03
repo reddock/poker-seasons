@@ -3,7 +3,20 @@
     <v-container>
       <v-row align="alignment" :justify="justify" class="ma-1 pa-1">
         <v-col>
-          <SeptMerit />
+          <v-tabs>
+            <v-tab>October</v-tab>
+            <v-tab>September</v-tab>
+            <v-tab-item>
+              <v-card flat>
+                <OctMerit />
+              </v-card>
+            </v-tab-item>
+            <v-tab-item>
+              <v-card flat>
+                <SeptMerit />
+              </v-card>
+            </v-tab-item>
+          </v-tabs>
         </v-col>
       </v-row>
       <v-row :align="alignment" :justify="justify" class="ma-1 pa-1">
@@ -22,6 +35,7 @@
 import PointSystem from "./PointSystem";
 import Blinds from "./Blinds";
 import SeptMerit from "./SeptMerit";
+import OctMerit from "./OctMerit";
 
 export default {
   name: "Dashboard",
@@ -30,8 +44,12 @@ export default {
   },
   components: {
     SeptMerit,
+    OctMerit,
     PointSystem,
     Blinds,
+  },
+  data() {
+    return { months: ["October", "September", "August"] };
   },
 };
 </script>
