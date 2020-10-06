@@ -20,6 +20,7 @@
         </v-col>
       </v-row>
       <v-row :align="alignment" :justify="justify" class="ma-1 pa-1">
+        <v-col><Finals /></v-col>
         <v-col sm="4">
           <PointSystem />
         </v-col>
@@ -34,6 +35,7 @@
 <script>
 import PointSystem from "./PointSystem";
 import Blinds from "./Blinds";
+import Finals from "./Finals";
 import SeptMerit from "./SeptMerit";
 import OctMerit from "./OctMerit";
 
@@ -47,6 +49,7 @@ export default {
     OctMerit,
     PointSystem,
     Blinds,
+    Finals,
   },
   data() {
     return { months: ["October", "September", "August"] };
