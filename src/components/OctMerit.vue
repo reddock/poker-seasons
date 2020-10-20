@@ -43,7 +43,7 @@ export default {
       players: [
         {
           name: "BigMike",
-          chips: 1800,
+          chips: 1900,
           game1: 5,
           game2: 5,
           game4: 2,
@@ -52,26 +52,28 @@ export default {
         },
         {
           name: "Matthew",
-          chips: 1400,
+          chips: 1800,
           game1: 4,
           game2: 4,
           game3: 3,
+          game7: 4,
         },
         {
           name: "Anders",
-          chips: 800,
+          chips: 900,
           game2: 3,
         },
         {
           name: "Jess",
-          chips: 1300,
+          chips: 1600,
           game1: 3,
           game3: 5,
           game5: 4,
+          game7: 3,
         },
         {
           name: "Christine",
-          chips: 500,
+          chips: 600,
         },
         {
           name: "Foley",
@@ -79,18 +81,18 @@ export default {
         },
         {
           name: "Ned",
-          chips: 1000,
+          chips: 1100,
           game4: 3,
           game5: 5,
         },
         {
           name: "Shane",
-          chips: 800,
+          chips: 900,
           game6: 3,
         },
         {
           name: "Atom",
-          chips: 900,
+          chips: 1000,
           game4: 4,
         },
         {
@@ -101,13 +103,14 @@ export default {
         },
         {
           name: "Kat",
-          chips: 600,
+          chips: 700,
         },
         {
           name: "David",
-          chips: 1200,
+          chips: 1700,
           game3: 4,
           game6: 5,
+          game7: 5,
         },
         {
           name: "Derik",
