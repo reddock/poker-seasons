@@ -29,7 +29,6 @@ export default {
           value: "name",
         },
         { text: "Total", value: "total" },
-        { text: "Finals", value: "finals" },
         { text: "Chips", value: "chips" },
         { text: "12/5", value: "game1" },
         { text: "12/12", value: "game2" },
