@@ -63,6 +63,7 @@ export default {
         {
           name: "Atom",
           chips: 400,
+          game3: 2,
         },
         {
           name: "Ned",
@@ -73,6 +74,7 @@ export default {
         {
           name: "Christine",
           chips: 400,
+          game3: 2,
         },
         {
           name: "Kat",
