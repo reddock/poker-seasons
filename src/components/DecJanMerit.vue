@@ -34,10 +34,11 @@ export default {
         { text: "12/11", value: "game2" },
         { text: "12/18", value: "game3" },
         { text: "12/26", value: "game4" },
-        { text: "1/1", value: "game5" },
-        { text: "1/8", value: "game6" },
-        { text: "1/15", value: "game7" },
-        { text: "1/22", value: "game8" },
+        { text: "12/30", value: "game5" },
+        { text: "1/1", value: "game6" },
+        { text: "1/8", value: "game7" },
+        { text: "1/15", value: "game8" },
+        { text: "1/22", value: "game9" },
       ],
       players: [
         {
