@@ -42,63 +42,66 @@ export default {
       players: [
         {
           name: "BigMike",
-          chips: 800,
+          chips: 900,
           game1: 5,
           game2: 2,
         },
         {
           name: "Foley",
-          chips: 500,
+          chips: 600,
           game1: 2,
           game2: 2,
         },
         {
           name: "Matthew",
-          chips: 300,
+          chips: 600,
+          game4: 3,
         },
         {
           name: "Anders",
-          chips: 200,
+          chips: 400,
         },
         {
           name: "Atom",
-          chips: 400,
+          chips: 500,
           game3: 2,
         },
         {
           name: "Ned",
-          chips: 800,
+          chips: 1000,
           game1: 4,
           game2: 3,
+          game4: 2,
         },
         {
           name: "Christine",
-          chips: 400,
+          chips: 600,
           game3: 2,
+          game4: 2,
         },
         {
           name: "Kat",
-          chips: 1000,
+          chips: 1100,
           game2: 4,
           game3: 5,
         },
         {
           name: "David",
-          chips: 700,
+          chips: 800,
           game2: 5,
         },
         {
           name: "Derik",
-          chips: 200,
+          chips: 300,
         },
         {
           name: "Miller",
-          chips: 500,
+          chips: 600,
           game1: 3,
         },
         {
           name: "Alex",
-          chips: 400,
+          chips: 500,
           game1: 2,
         },
         {
@@ -107,12 +110,13 @@ export default {
         },
         {
           name: "Shane",
-          chips: 500,
+          chips: 1000,
           game3: 3,
+          game4: 5,
         },
         {
           name: "Iustin",
-          chips: 300,
+          chips: 400,
         },
         {
           name: "Tim",
@@ -120,8 +124,21 @@ export default {
         },
         {
           name: "Chris",
-          chips: 400,
+          chips: 500,
           game3: 4,
+        },
+        {
+          name: "Jim",
+          chips: 100,
+        },
+        {
+          name: "Ben",
+          chips: 100,
+        },
+        {
+          name: "Jess",
+          chips: 400,
+          game4: 4,
         },
       ],
     };
