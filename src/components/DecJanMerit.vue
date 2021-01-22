@@ -44,26 +44,27 @@ export default {
       players: [
         {
           name: "BigMike",
-          chips: 1300,
+          chips: 1400,
           game1: 5,
           game2: 2,
         },
         {
           name: "Foley",
-          chips: 1100,
+          chips: 1200,
           game1: 2,
           game2: 2,
           game8: 2,
         },
         {
           name: "Matthew",
-          chips: 1200,
+          chips: 1700,
           game4: 3,
           game5: 4,
+          game9: 5,
         },
         {
           name: "Anders",
-          chips: 900,
+          chips: 1000,
           game8: 2,
         },
         {
@@ -73,7 +74,7 @@ export default {
         },
         {
           name: "Ned",
-          chips: 1700,
+          chips: 1800,
           game1: 4,
           game2: 3,
           game4: 2,
@@ -81,7 +82,7 @@ export default {
         },
         {
           name: "Christine",
-          chips: 1300,
+          chips: 1400,
           game3: 2,
           game4: 2,
           game6: 2,
@@ -89,14 +90,14 @@ export default {
         },
         {
           name: "Kat",
-          chips: 1900,
+          chips: 2000,
           game2: 4,
           game3: 5,
           game7: 5,
         },
         {
           name: "David",
-          chips: 1900,
+          chips: 2000,
           game2: 5,
           game5: 5,
           game8: 4,
@@ -108,15 +109,16 @@ export default {
         },
         {
           name: "Miller",
-          chips: 800,
+          chips: 900,
           game1: 3,
         },
         {
           name: "Alex",
-          chips: 1100,
+          chips: 1400,
           game1: 2,
           game7: 2,
           game8: 2,
+          game9: 3,
         },
         {
           name: "Evi",
@@ -125,11 +127,12 @@ export default {
         },
         {
           name: "Shane",
-          chips: 2000,
+          chips: 2400,
           game3: 3,
           game4: 5,
           game6: 3,
           game8: 5,
+          game9: 4,
         },
         {
           name: "Iustin",
