@@ -29,6 +29,7 @@ export default {
           value: "name",
         },
         { text: "Total", value: "total" },
+        { text: "Finals", value: "finals" },
         { text: "Chips", value: "chips" },
         { text: "12/4", value: "game1" },
         { text: "12/11", value: "game2" },
@@ -44,6 +45,7 @@ export default {
       players: [
         {
           name: "BigMike",
+          finals: '2nd',
           chips: 1800,
           game1: 5,
           game2: 2,
@@ -86,6 +88,7 @@ export default {
         {
           name: "Christine",
           chips: 1500,
+          finals: '3rd',
           game3: 2,
           game4: 2,
           game6: 2,
@@ -108,6 +111,7 @@ export default {
         {
           name: "Derik",
           chips: 900,
+          finals: '5th',
           game8: 3,
           game10: 2,
         },
@@ -120,6 +124,7 @@ export default {
         {
           name: "Alex",
           chips: 1500,
+          finals: '4th',
           game1: 2,
           game7: 2,
           game8: 2,
@@ -168,6 +173,7 @@ export default {
         {
           name: "Jess",
           chips: 1300,
+          finals: '1st',
           game4: 4,
           game6: 5,
         },
