@@ -75,9 +75,9 @@ export default {
         },
         {
           name: "Shane",
-          chips: 900,
+          chips: 1000,
           game1: 4,
-          game3: 4,
+          game3: 5,
         },
         {
           name: "Chris",
@@ -115,8 +115,8 @@ export default {
         },
         { 
           name: "Jess",
-          chips: 500,
-          game3: 5,
+          chips: 400,
+          game3: 4,
         },
       ],
     };
