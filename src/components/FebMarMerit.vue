@@ -42,51 +42,54 @@ export default {
       players: [
         {
           name: "BigMike",
-          chips: 600,
+          chips: 800,
           game1: 3,
           game2: 2,
+          game4: 2,
         },
         {
           name: "Foley",
-          chips: 300,
+          chips: 400,
         },
         {
           name: "Matthew",
-          chips: 500,
+          chips: 600,
           game3: 3,
         },
         {
           name: "Anders",
-          chips: 300,
+          chips: 800,
+          game4: 5,
         },
         {
           name: "Christine",
-          chips: 700,
+          chips: 800,
           game1: 5,
         },
         {
           name: "Kat",
-          chips: 300,
+          chips: 400,
         },
         {
           name: "Alex",
-          chips: 500,
+          chips: 800,
           game2: 3,
+          game4: 3,
         },
         {
           name: "Shane",
-          chips: 1000,
+          chips: 1100,
           game1: 4,
           game3: 5,
         },
         {
           name: "Chris",
-          chips: 600,
+          chips: 700,
           game2: 4,
         },
         {
           name: "Iustin",
-          chips: 600,
+          chips: 700,
           game2: 5,
         },
         { 
@@ -99,7 +102,8 @@ export default {
         },
         { 
           name: "Miller",
-          chips: 200,
+          chips: 600,
+          game4: 4,
         },
         { 
           name: "Brito",
@@ -111,12 +115,28 @@ export default {
         },
         { 
           name: "David",
-          chips: 200,
+          chips: 300,
         },
         { 
           name: "Jess",
-          chips: 400,
+          chips: 500,
           game3: 4,
+        },
+        { 
+          name: "Alex T",
+          chips: 100,
+        },
+        { 
+          name: "Kevin",
+          chips: 100,
+        },
+        { 
+          name: "Ned",
+          chips: 100,
+        },
+        { 
+          name: "Nancy",
+          chips: 100,
         },
       ],
     };
