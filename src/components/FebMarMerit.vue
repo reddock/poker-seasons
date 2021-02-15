@@ -32,12 +32,12 @@ export default {
         { text: "Chips", value: "chips" },
         { text: "2/1", value: "game1" },
         { text: "2/5", value: "game2" },
-        { text: "2/12", value: "game3" },
-        { text: "2/19", value: "game4" },
-        { text: "2/26", value: "game5" },
-        { text: "3/5", value: "game6" },
-        { text: "3/12", value: "game7" },
-        { text: "3/19", value: "game8" },
+        { text: "2/8", value: "game3" },
+        { text: "2/12", value: "game4" },
+        { text: "2/14", value: "game5" },
+        { text: "2/15", value: "game6" },
+        { text: "2/19", value: "game7" },
+        { text: "2/26", value: "game8" },
       ],
       players: [
         {
