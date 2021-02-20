@@ -42,48 +42,50 @@ export default {
       players: [
         {
           name: "BigMike",
-          chips: 1600,
+          chips: 1800,
           game1: 3,
           game2: 2,
           game4: 2,
           game5: 3,
           game6: 5,
+          game7: 2,
         },
         {
           name: "Foley",
-          chips: 600,
+          chips: 700,
         },
         {
           name: "Matthew",
-          chips: 700,
+          chips: 800,
           game3: 3,
         },
         {
           name: "Anders",
-          chips: 1400,
+          chips: 1500,
           game4: 5,
           game5: 2,
           game6: 4,
         },
         {
           name: "Christine",
-          chips: 1000,
+          chips: 1100,
           game1: 5,
         },
         {
           name: "Kat",
-          chips: 600,
+          chips: 700,
         },
         {
           name: "Alex",
-          chips: 1300,
+          chips: 1800,
           game2: 3,
           game4: 3,
           game5: 4,
+          game7: 5,
         },
         {
           name: "Shane",
-          chips: 1200,
+          chips: 1300,
           game1: 4,
           game3: 5,
         },
@@ -103,11 +105,11 @@ export default {
         },
         { 
           name: "Jim",
-          chips: 200,
+          chips: 300,
         },
         { 
           name: "Miller",
-          chips: 700,
+          chips: 800,
           game4: 4,
         },
         { 
@@ -116,15 +118,16 @@ export default {
         },
         { 
           name: "Derik",
-          chips: 200,
+          chips: 300,
         },
         { 
           name: "David",
-          chips: 500,
+          chips: 900,
+          game7: 4,
         },
         { 
           name: "Jess",
-          chips: 1000,
+          chips: 1100,
           game3: 4,
           game5: 5,
         },
@@ -138,15 +141,16 @@ export default {
         },
         { 
           name: "Ned",
-          chips: 300,
+          chips: 400,
         },
         { 
           name: "Nancy",
-          chips: 200,
+          chips: 500,
+          game7: 3,
         },
         { 
           name: "Atom",
-          chips: 200,
+          chips: 300,
         },
       ],
     };
