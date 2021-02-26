@@ -37,12 +37,13 @@ export default {
         { text: "2/14", value: "game5" },
         { text: "2/15", value: "game6" },
         { text: "2/19", value: "game7" },
-        { text: "2/26", value: "game8" },
+        { text: "2/22", value: "game8" },
+        { text: "2/26", value: "game9" },
       ],
       players: [
         {
           name: "BigMike",
-          chips: 1800,
+          chips: 1900,
           game1: 3,
           game2: 2,
           game4: 2,
@@ -56,28 +57,30 @@ export default {
         },
         {
           name: "Matthew",
-          chips: 800,
+          chips: 900,
           game3: 3,
         },
         {
           name: "Anders",
-          chips: 1500,
+          chips: 2000,
           game4: 5,
           game5: 2,
           game6: 4,
+          game8: 5,
         },
         {
           name: "Christine",
-          chips: 1100,
+          chips: 1200,
           game1: 5,
         },
         {
           name: "Kat",
-          chips: 700,
+          chips: 1100,
+          game8: 4,
         },
         {
           name: "Alex",
-          chips: 1800,
+          chips: 1900,
           game2: 3,
           game4: 3,
           game5: 4,
@@ -109,12 +112,13 @@ export default {
         },
         { 
           name: "Miller",
-          chips: 800,
+          chips: 900,
           game4: 4,
         },
         { 
           name: "Brito",
-          chips: 200,
+          chips: 500,
+          game8: 3,
         },
         { 
           name: "Derik",
@@ -122,12 +126,12 @@ export default {
         },
         { 
           name: "David",
-          chips: 900,
+          chips: 1000,
           game7: 4,
         },
         { 
           name: "Jess",
-          chips: 1100,
+          chips: 1200,
           game3: 4,
           game5: 5,
         },
@@ -145,12 +149,12 @@ export default {
         },
         { 
           name: "Nancy",
-          chips: 500,
+          chips: 600,
           game7: 3,
         },
         { 
           name: "Atom",
-          chips: 300,
+          chips: 400,
         },
       ],
     };
