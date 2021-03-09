@@ -43,11 +43,12 @@ export default {
         { text: "3/5", value: "game11" },
         { text: "3/7", value: "game12" },
         { text: "3/8", value: "game13" },
+        { text: "3/12", value: "game14" },
       ],
       players: [
         {
           name: "BigMike",
-          chips: 2900,
+          chips: 3000,
           game1: 3,
           game2: 2,
           game4: 2,
@@ -64,12 +65,13 @@ export default {
         },
         {
           name: "Matthew",
-          chips: 1000,
+          chips: 1400,
           game3: 3,
+          game13: 4,
         },
         {
           name: "Anders",
-          chips: 2500,
+          chips: 2700,
           game4: 5,
           game5: 2,
           game6: 4,
@@ -79,13 +81,13 @@ export default {
         },
         {
           name: "Christine",
-          chips: 1900,
+          chips: 2000,
           game1: 5,
           game10: 4,
         },
         {
           name: "Ben",
-          chips: 600,
+          chips: 700,
           game9: 5,
         },
         {
@@ -95,7 +97,7 @@ export default {
         },
         {
           name: "Alex",
-          chips: 2300,
+          chips: 2400,
           game2: 3,
           game4: 3,
           game5: 4,
@@ -109,11 +111,12 @@ export default {
         },
         {
           name: "Chris",
-          chips: 1800,
+          chips: 2000,
           game2: 4,
           game10: 5,
           game11: 2,
           game12: 4,
+          game13: 2,
         },
         {
           name: "Iustin",
@@ -138,24 +141,26 @@ export default {
         },
         { 
           name: "Brito",
-          chips: 800,
+          chips: 1300,
           game8: 3,
+          game13: 5,
         },
         { 
           name: "Derik",
-          chips: 400,
+          chips: 500,
         },
         { 
           name: "David",
-          chips: 1600,
+          chips: 1700,
           game7: 4,
           game10: 3,
         },
         { 
           name: "Jess",
-          chips: 1400,
+          chips: 1700,
           game3: 4,
           game5: 5,
+          game13: 3,
         },
         { 
           name: "Alex T",
@@ -167,16 +172,16 @@ export default {
         },
         { 
           name: "Ned",
-          chips: 600,
+          chips: 700,
         },
         { 
           name: "Nancy",
-          chips: 800,
+          chips: 900,
           game7: 3,
         },
         { 
           name: "Atom",
-          chips: 1500,
+          chips: 1600,
           game11: 4,
           game12: 5,
         },
