@@ -44,59 +44,70 @@ export default {
       players: [
         {
           name: "BigMike",
-          chips: 300,
+          chips: 400,
           game1: 3,
         },
         {
           name: "Foley",
-          chips: 100,
+          chips: 200,
         },
         {
           name: "Evi",
-          chips: 400,
+          chips: 500,
           game1: 4,
         },
         {
           name: "Anders",
-          chips: 200,
+          chips: 300,
           game1: 2,
         },
         {
+          name: "Matthew",
+          chips: 500,
+          game2: 5,
+        },
+        {
           name: "Christine",
-          chips: 100,
+          chips: 200,
         },
         {
           name: "Kat",
-          chips: 500,
+          chips: 600,
           game1: 5,
         },
         {
           name: "Alex",
-          chips: 100,
+          chips: 200,
         },
         {
           name: "Shane",
-          chips: 100,
+          chips: 500,
+          game2: 4,
         },
         {
           name: "Nancy",
+          chips: 200,
+        },
+        {
+          name: "Jess",
           chips: 100,
         },
         { 
           name: "Miller",
-          chips: 100,
+          chips: 400,
+          game2: 3,
         },
         { 
           name: "David",
-          chips: 100,
+          chips: 200,
         },
         { 
           name: "Atom",
-          chips: 100,
+          chips: 200,
         },
         { 
           name: "Sunny",
-          chips: 100,
+          chips: 200,
         },
       ],
     };
